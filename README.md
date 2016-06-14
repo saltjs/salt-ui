@@ -7,9 +7,9 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 请用钉钉扫码
 
-![Demo](https://img.alicdn.com/tps/TB1izbJKpXXXXahXFXXXXXXXXXX-231-233.png)
+![Demo](https://img.alicdn.com/tps/TB1oznPKpXXXXbCXpXXXXXXXXXX-236-235.png)
 
-[Demo](http://g.alicdn.com/dingding/open-demo/0.0.4/index.html)
+[Demo](http://g.alicdn.com/dingding/open-demo/0.0.4/index.html?dd_progress=false)
 
 ## 文档
 

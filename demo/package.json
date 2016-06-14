@@ -1,0 +1,21 @@
+{
+  "name": "salt-demo",
+  "author": "injekt",
+  "version": "1.0.0",
+  "description": "An awesome project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "nowa server",
+    "build": "nowa build"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "~2.1.2",
+    "i18n-helper": "~1.1.1",
+    "react-mixin": "~1.7.0"
+  }
+}

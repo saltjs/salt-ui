@@ -1,0 +1,112 @@
+.homeSlide .tSlideView {
+  height: 6rem !important;
+}
+.homeSlide .tSlideView img {
+  width: 100%;
+  height: 100%;
+}
+.tingleIntro {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+.tingleSvg {
+  width: 8rem;
+  height: 4rem;
+  fill: #fff;
+}
+.homeGridItem {
+  width: 100%;
+  height: 100%;
+}
+.homeGridItem .iconText {
+  font-size: 16px;
+  margin-top: 0.213333333333333rem;
+}
+.homeGridItem .homeGridIcon {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: relative;
+}
+.homeGridItem .homeGridIcon .iconBg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.homeGridItem .homeGridIcon .iconIs {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  fill: #fff;
+}
+.homeGridItem.hover {
+  background: #f6f6f6;
+}
+.iconColor0 {
+  fill: #fa8169;
+}
+.iconColor1 {
+  fill: #6eb5eb;
+}
+.iconColor2 {
+  fill: #74d18d;
+}
+.iconColor3 {
+  fill: #d79f6e;
+}
+.iconColor4 {
+  fill: #8790db;
+}
+.iconColor5 {
+  fill: #03a9f4;
+}
+.iconColor6 {
+  fill: #af86d5;
+}
+.iconColor7 {
+  fill: #df3670;
+}
+.iconColor8 {
+  fill: #9ad26e;
+}
+.iconColor9 {
+  fill: #d86d6d;
+}
+.iconColor10 {
+  fill: #7cb342;
+}
+.iconColor11 {
+  fill: #fbc02d;
+}
+.iconColor12 {
+  fill: #676767;
+}
+.iconColor13 {
+  fill: #7e57c2;
+}
+.iconColor14 {
+  fill: #8790db;
+}
+.tGrid {
+  border-top: 1px solid #ddd;
+}
+.hairline .tGrid {
+  border-top: 0.5px solid #ccc;
+}
+.tGridRow {
+  border-bottom: 1px solid #ddd;
+}
+.hairline .tGridRow {
+  border-bottom: 0.5px solid #ccc;
+}
+.tGridItem {
+  font-size: 0.266666666666667rem;
+}
+.tGridItem + .tGridItem {
+  border-left: 1px solid #ddd;
+}
+.hairline .tGridItem + .tGridItem {
+  border-left: 0.5px solid #ccc;
+}
+
+/*# sourceMappingURL=../../pages/home/PageHome.css.map */

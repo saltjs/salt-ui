@@ -1,5 +1,5 @@
 require('./PageDialog.styl');
-const { Button, Dialog } = TingleUI;
+const { Button, Dialog } = SaltUI;
 
 class Page extends React.Component {
 

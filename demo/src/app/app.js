@@ -10,7 +10,6 @@ const PageList = require('../pages/list');
 const PageForm = require('../pages/form');
 const PageIcon = require('../pages/icon');
 const PageDialog = require('../pages/dialog');
-const PageGallery = require('../pages/gallery');
 const PageScene = require('../pages/scene');
 if (__LOCAL__ && window.chrome && window.chrome.webstore) { // This is a Chrome only hack
   // see https://github.com/livereload/livereload-extensions/issues/26

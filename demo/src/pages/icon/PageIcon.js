@@ -1,5 +1,5 @@
 require('./PageIcon.styl');
-const {Grid, Icon} = TingleUI;
+const {Grid, Icon} = SaltUI;
 
 class Page extends React.Component {
 

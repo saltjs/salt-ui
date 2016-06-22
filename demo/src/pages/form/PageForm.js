@@ -11,7 +11,7 @@ const {
     RadioField,
     Toast,
     SwitchField
-    } = TingleUI;
+    } = SaltUI;
 
 class Page extends React.Component {
 

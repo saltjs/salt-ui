@@ -1,6 +1,6 @@
 require('./PageScene.styl');
 let { hashHistory, browserHistory} = ReactRouter;
-let { Note, Icon, TabBar, NavBar, Group, Tab, Boxs, Avatar, Grid} = TingleUI;
+let { Note, Icon, TabBar, NavBar, Group, Tab, Boxs, Avatar, Grid} = SaltUI;
 let HBox = Boxs.HBox;
 let Box = Boxs.Box;
 

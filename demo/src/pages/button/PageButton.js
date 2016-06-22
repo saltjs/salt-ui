@@ -1,5 +1,5 @@
 require('./PageButton.styl');
-let {Toast, Button, Boxs} = TingleUI;
+let {Toast, Button, Boxs} = SaltUI;
 let HBox = Boxs.HBox;
 let Box = Boxs.Box;
 

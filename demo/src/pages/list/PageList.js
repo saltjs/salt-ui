@@ -1,5 +1,5 @@
 require('./PageList.styl');
-let { Group, Tab, List, Avatar, Button, Boxs, Icon} = TingleUI;
+let { Group, Tab, List, Avatar, Button, Boxs, Icon} = SaltUI;
 let HBox = Boxs.HBox;
 let Box = Boxs.Box;
 

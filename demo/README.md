@@ -42,7 +42,7 @@ An awesome project
 
 ## 环境准备
 
-具体请参考[这里](https://github.com/saltjs/salt-tool)
+具体请参考[这里](http://ux.alibaba.net/products/nowa.html)
 
 环境准备妥当之后，把项目clone下来，切换到对应分支。更新项目依赖：
 
@@ -90,11 +90,15 @@ nowa init page
 nowa
 ```
 
+- git 命令
+
+[Git发布操作流程和日常使用技巧](http://ux.alibaba.net/docs/git-publish.html)
+
 - 更多命令和参数（端口、代理、依赖库、国际化、热构建、https……）
 
-请查看 salt-tool 的官方文档：
+请查看 nowa 的官方文档：
 
-[https://github.com/saltjs/salt-tool](https://github.com/saltjs/salt-tool)
+[https://www.npmjs.com/package/nowa](https://www.npmjs.com/package/nowa)
 
 ## 页面引用资源列表
 
@@ -150,6 +154,10 @@ nowa
 
 > 当某个变量仅有一个候选值时，将不会添加文件后缀。
 
+## CSS约定
+
+具体请参考[这里](http://gitlab.alibaba-inc.com/uxcore/uxcore-kuma/tree/master)。
+
 ## 外部工具
 
 脚手架默认引入了以下外部工具库：
@@ -165,6 +173,13 @@ nowa
 
 > [React](http://reactjs.cn/) 和 [Refulx](https://github.com/reflux/refluxjs) 的使用，请参考各自的官方文档。
 
+## Uxcore 模块
+
+Uxcore 组件库请参考[这里](http://uxco.re/)。
+
+### 定制 Uxcore
+
+可通过在 abc.json 中增加相应配置来定制项目所需的 Uxcore，详见 [nowa-lib 插件](https://www.npmjs.com/package/nowa-lib)。
 
 ## 国际化解决方案
 
@@ -231,10 +246,8 @@ render() {
 
 ## 数据层和模拟数据解决方案
 
-- 请参考 [salt-fetch 官方文档](https://github.com/saltjs/salt-fetch)。
+- 请参考 [NattyDB 官方文档](http://jias.github.io/natty-db/)。
 
 ## 其他
 
 - 建议使用 [es6](http://es6.ruanyifeng.com/) 进行编码。
-
-

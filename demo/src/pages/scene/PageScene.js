@@ -93,9 +93,9 @@ class Page extends React.Component {
                     </TabBar.Item>
                     <TabBar.Item title="搭乘列表" icon="scene-list">
                         <Tab onChange={t.handleChange.bind(t)}>
-                            <Tab.item title="我是乘客">
+                            <Tab.Item title="我是乘客">
                                 <Tab className="t-tab-secondary" type={'brick'} onChange={t.handleChange.bind(t)}>
-                                    <Tab.item title="全部">
+                                    <Tab.Item title="全部">
                                         <Group className='demo-t-list'>
                                             <Group.List borderTopNone={true}>
                                                 <div className='demo-t-list-wrap'>
@@ -136,8 +136,8 @@ class Page extends React.Component {
                                                 </div>
                                             </Group.List>
                                         </Group>
-                                    </Tab.item>
-                                    <Tab.item title="已完成">
+                                    </Tab.Item>
+                                    <Tab.Item title="已完成">
                                         <Group.List borderTopNone={true}>
                                             <div className='demo-t-list-wrap'>
                                                 <HBox vAlign="center">
@@ -157,18 +157,18 @@ class Page extends React.Component {
                                                 </HBox>
                                             </div>
                                         </Group.List>
-                                    </Tab.item>
+                                    </Tab.Item>
                                 </Tab>
-                            </Tab.item>
-                            <Tab.item title="我是司机">
+                            </Tab.Item>
+                            <Tab.Item title="我是司机">
                                 <div className="scene-list-record">暂无发布记录</div>
-                            </Tab.item>
+                            </Tab.Item>
                         </Tab>
                     </TabBar.Item>
                     <TabBar.Item title="FAQ" icon="info-round">
                         <div className="scene-faq">
                             <Tab onChange={t.handleChange.bind(t)}>
-                                <Tab.item title="乘客篇">
+                                <Tab.Item title="乘客篇">
                                     <div className="scene-faq-list">
                                         <dl>
                                             <dt>1、新手怎样搭顺风车？</dt>
@@ -192,8 +192,8 @@ class Page extends React.Component {
                                             </dd>
                                         </dl>
                                     </div>
-                                </Tab.item>
-                                <Tab.item title="司机篇">
+                                </Tab.Item>
+                                <Tab.Item title="司机篇">
                                     <div className="scene-faq-list">
                                         <dl>
                                             <dt>1、如何发布顺风车信息？</dt>
@@ -223,7 +223,7 @@ class Page extends React.Component {
                                             </dd>
                                         </dl>
                                     </div>
-                                </Tab.item>
+                                </Tab.Item>
                             </Tab>
                         </div>
                     </TabBar.Item>

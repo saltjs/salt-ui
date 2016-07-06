@@ -6,11 +6,7 @@
         "template": "https://github.com/nowa-webpack/template-salt/archive/master.zip",
         "npm": "npm",
         "vars": {
-            "locale": "zh-cn",
             "__LOCAL__": true
-        },
-        "buildvars": {
-            "locale": [ "zh-cn", "en" ]
         }
     }
 }

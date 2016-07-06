@@ -2,7 +2,10 @@ require('./app.styl');
 
 // 插入 demo svg
 let TingleIconSymbolsDemo = require('./../images/tingle-icon-symbols.svg');
-ReactDOM.render(<TingleIconSymbolsDemo/>, document.getElementById('TingleIconSymbolsDemo'));
+let symbols = document.createElement('div');
+ReactDOM.render(<TingleIconSymbolsDemo/>, symbols);
+symbols.className = 't-hide';
+(document.body || document.documentElement).appendChild(symbols);
 
 const PageHome = require('../pages/home');
 const PageButton = require('../pages/button');
@@ -10,6 +13,7 @@ const PageList = require('../pages/list');
 const PageForm = require('../pages/form');
 const PageIcon = require('../pages/icon');
 const PageDialog = require('../pages/dialog');
+const PageGallery = require('../pages/gallery');
 const PageScene = require('../pages/scene');
 if (__LOCAL__ && window.chrome && window.chrome.webstore) { // This is a Chrome only hack
   // see https://github.com/livereload/livereload-extensions/issues/26

@@ -109,7 +109,7 @@ class Page extends React.Component {
                             'title': '发送内外新分享', // 大标题
                             'postScope': 'public', // public, private
                             'content': '#意见反馈# ', // 默认内容
-                            'placeholderText': '请输入您要反馈的意见，或bug', // placeholder
+                            'placeholderText': '请输入您要反馈给tingle小组的意见，或bug', // placeholder
                             'groupId': '17122'
                         }, ()=> {
                         })
@@ -117,16 +117,42 @@ class Page extends React.Component {
                 });
                 break;
             case "other":
-                this.notice();
+                Ali.ready(()=> {
+                    Ali.pushWindow({
+                        url: "http://ux.alibaba.net/docs/tingle-getting-started.html"
+                    });
+                });
                 break;
             case "doc":
+                // Ali.ready(()=> {
+                //     Ali.pushWindow({
+                //         url: "http://g-assets.daily.taobao.net/platform/tingle-ui/1.0.3/docs/docs.html"
+                //     });
+                // });
                 this.notice();
                 break;
             case "github":
+                // if (Ali.isDingDing) {
+                //     Ali.alert({
+                //         message: "正在升级中…",
+                //         title: "温馨提示",
+                //         okButton: "知道了"
+                //     }, ()=> {
+                //     })
+                // } else if (Ali.isAliwork) {
+                //     Ali.pushWindow({
+                //         url: 'http://gitlab.alibaba-inc.com/tingle-ui'
+                //     });
+                // }
                 this.notice();
 
                 break;
             case "native":
+                // Ali.ready(()=> {
+                //     Ali.pushWindow({
+                //         url: Ali.isDingDing ? 'http://h5.m.laiwang.com/home/ding.html' : 'http://zhuanti.alibaba-inc.com/markets/nw-test/native-api-test?__nc=0'
+                //     });
+                // });
                 this.notice();
                 break;
             default:

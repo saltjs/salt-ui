@@ -7,9 +7,6 @@ class Page extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            type: ''
-        }
     }
 
     handleChange() {
@@ -20,17 +17,11 @@ class Page extends React.Component {
         console.log('...');
     }
 
-    handleClick() {
-        this.setState({
-            type: this.state.type === '' ? 'brick' : ''
-        });
-    }
-
     render() {
         let t = this;
         return (
-            <Tab className="page-list" type={t.state.type} onChange={t.handleChange.bind(t)}>
-                <Tab.item title="贡献者">
+            <Tab className="page-list" onChange={t.handleChange.bind(t)}>
+                <Tab.Item title="贡献者">
                     <Group.List borderTopNone={true} lineIndent={15} itemIndent={[15,15]}>
                         <div className="about-item t-FBH t-FBAC" onClick={t.handleChange.bind(t)}>
                             <div><Avatar size="40" name="Alice"/></div>
@@ -47,8 +38,8 @@ class Page extends React.Component {
 
                     </Group.List>
                     <Button className="list-change-theme" type="primary" onClick={t.changeTheme.bind(t)}>切换主题</Button>
-                </Tab.item>
-                <Tab.item title="服务于项目">
+                </Tab.Item>
+                <Tab.Item title="服务于项目">
                     <Group className="project-tingle">
                         <Group.Head>
                             项目名称
@@ -58,10 +49,10 @@ class Page extends React.Component {
                             <div className='t-LH44 t-omit'>项目二</div>
                         </Group.List>
                     </Group>
-                </Tab.item>
-                <Tab.item title="列表">
+                </Tab.Item>
+                <Tab.Item title="列表">
                     <Tab type={'brick'}>
-                        <Tab.item title="列表一">
+                        <Tab.Item title="列表一">
                             <List
                                 layout="left"
                                 hasRightIcon={true}
@@ -117,8 +108,8 @@ class Page extends React.Component {
                             title : "Bob",
                             date : "今天"
                         }]}/>
-                        </Tab.item>
-                        <Tab.item title="列表二">
+                        </Tab.Item>
+                        <Tab.Item title="列表二">
                             <Group className='demo-t-list'>
                                 <Group.Head className='t-demo-title'>图加标题</Group.Head>
                                 <Group.List lineIndent={15}>
@@ -191,8 +182,8 @@ class Page extends React.Component {
                                     </div>
                                 </Group.List>
                             </Group>
-                        </Tab.item>
-                        <Tab.item title="列表三">
+                        </Tab.Item>
+                        <Tab.Item title="列表三">
                             <Group className='demo-t-list'>
                                 <Group.Head className='t-demo-title'>图文纵排</Group.Head>
                                 <Group.List>
@@ -232,9 +223,9 @@ class Page extends React.Component {
                                     </div>
                                 </Group.List>
                             </Group>
-                        </Tab.item>
+                        </Tab.Item>
                     </Tab>
-                </Tab.item>
+                </Tab.Item>
             </Tab>
         )
     }

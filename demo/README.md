@@ -42,7 +42,7 @@ An awesome project
 
 ## 环境准备
 
-具体请参考[这里](http://ux.alibaba.net/products/nowa.html)
+具体请参考[这里](http://nowa-webpack.github.io/docs/an_zhuang.html)
 
 环境准备妥当之后，把项目clone下来，切换到对应分支。更新项目依赖：
 
@@ -98,7 +98,7 @@ nowa
 
 请查看 nowa 的官方文档：
 
-[https://www.npmjs.com/package/nowa](https://www.npmjs.com/package/nowa)
+[http://nowa-webpack.github.io/](http://nowa-webpack.github.io/)
 
 ## 页面引用资源列表
 

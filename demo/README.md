@@ -90,10 +90,6 @@ nowa init page
 nowa
 ```
 
-- git 命令
-
-[Git发布操作流程和日常使用技巧](http://ux.alibaba.net/docs/git-publish.html)
-
 - 更多命令和参数（端口、代理、依赖库、国际化、热构建、https……）
 
 请查看 nowa 的官方文档：
@@ -156,7 +152,7 @@ nowa
 
 ## CSS约定
 
-具体请参考[这里](http://gitlab.alibaba-inc.com/uxcore/uxcore-kuma/tree/master)。
+具体请参考[这里](http://uxco.re/css/base/)。
 
 ## 外部工具
 

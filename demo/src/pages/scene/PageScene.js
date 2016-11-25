@@ -44,8 +44,10 @@ class Page extends React.Component {
     }
 
     setTitle(title) {
-        dd.biz.navigation.setTitle({
-            title: title
+        dd.ready(() => {
+            dd.biz.navigation.setTitle({
+                title: title
+            });
         });
     }
 

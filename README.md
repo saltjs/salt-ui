@@ -7,13 +7,13 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 请用钉钉扫码
 
-![Demo](https://img.alicdn.com/tps/TB1NJV4PXXXXXcIXVXXXXXXXXXX-150-150.png)
+![Demo](https://img.alicdn.com/tps/TB1tKQnPXXXXXaAXFXXXXXXXXXX-150-150.png)
 
-[Demo](http://g.alicdn.com/platform/tingle-ui/1.2.2/demo/index.html#/)
+[Demo](http://g.alicdn.com/platform/tingle-ui/1.2.3/demo/index.html#/)
 
 ## 文档
 
-文档请参考 [Wiki](https://github.com/saltjs/salt-ui/wiki) 或 [这里](http://g.alicdn.com/platform/tingle-ui/1.2.2/docs/docs.html)
+文档请参考 [Wiki](https://github.com/saltjs/salt-ui/wiki) 或 [这里](http://g.alicdn.com/platform/tingle-ui/1.2.3/docs/docs.html)
 
 ## 贡献
 

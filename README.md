@@ -13,15 +13,16 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 ## 快速开始
 
-1. 下载安装开发环境
+1、下载安装开发环境
 
 操作系统 | 下载地址
 --- | ---
 windows | http://lab.onbing.com/nowa-gui.exe
 mac osx | http://lab.onbing.com/nowa-gui.dmg
 
-2. 选择 salt-ui 项目模板
-3. 点击 Start 启动项目
+2、选择 salt-ui 项目模板
+
+3、点击 Start 启动项目
 
 ## 文档
 

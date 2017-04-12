@@ -17,8 +17,8 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 操作系统 | 下载地址
 --- | ---
-windows | http://lab.onbing.com/nowa-gui.exe
-mac osx | http://lab.onbing.com/nowa-gui.dmg
+windows | https://alixux.org/downloads/nowa-gui.exe
+mac osx | https://alixux.org/downloads/nowa-gui.dmg
 
 2、选择 salt-ui 项目模板
 

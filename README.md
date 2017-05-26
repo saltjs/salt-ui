@@ -7,6 +7,10 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 [Demo 仓库](https://github.com/salt-ui/salt-demo/tree/master/demo/src)
 
+钉钉扫描看预览：
+
+![Demo](https://img.alicdn.com/tps/TB1tKQnPXXXXXaAXFXXXXXXXXXX-150-150.png)
+
 ## 快速开始
 
 1、下载安装开发环境

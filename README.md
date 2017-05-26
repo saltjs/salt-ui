@@ -7,18 +7,15 @@ salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快�
 
 请用钉钉扫码
 
-![Demo](https://img.alicdn.com/tps/TB1tKQnPXXXXXaAXFXXXXXXXXXX-150-150.png)
+[官网地址](https://salt-ui.github.io/components/tingle-ui/)
 
-[Demo](http://g.alicdn.com/platform/tingle-ui/1.2.3/demo/index.html#/)
+[Demo 仓库](https://github.com/salt-ui/salt-demo/tree/master/demo/src)
 
 ## 快速开始
 
 1、下载安装开发环境
 
-操作系统 | 下载地址
---- | ---
-windows | https://alixux.org/downloads/nowa-gui.exe
-mac osx | https://alixux.org/downloads/nowa-gui.dmg
+下载地址： [https://nowa-webpack.github.io/](https://nowa-webpack.github.io/)
 
 2、选择 salt-ui 项目模板
 

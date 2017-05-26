@@ -3,10 +3,6 @@ salt-ui 钉钉微应用UI组件库
 
 salt-ui是钉钉官方提供的一套ui组件库，希望帮助使用者更快更好地开发钉钉微应用界面。
 
-## 预览
-
-请用钉钉扫码
-
 [官网地址](https://salt-ui.github.io/components/tingle-ui/)
 
 [Demo 仓库](https://github.com/salt-ui/salt-demo/tree/master/demo/src)
